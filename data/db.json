@@ -1,28 +1,342 @@
 {
-  "tasks": [
+  "Categories": [
     {
-      "text": "Attend In-Class",
-      "day": "Feb 01th at 3:30pm",
-      "isDone": false,
-      "id": 10
+      "id": 0,
+      "name": "Meyve"
     },
     {
-      "text": "Study React Pre-Class Notes",
-      "day": "Dec 12th at 2:30pm",
-      "isDone": false,
-      "id": 12
+      "id": 1,
+      "name": "Temel Gida"
     },
     {
-      "text": "Feed the Dog",
-      "day": "Jun 06th at 7:30am",
-      "isDone": false,
-      "id": 13
+      "id": 2,
+      "name": "Icecek"
     },
     {
-      "text": "Make your meal",
-      "day": "Dec 12th at 4:30pm",
-      "isDone": false,
-      "id": 14
+      "id": 3,
+      "name": "Deterjan"
+    },
+    {
+      "id": 4,
+      "name": "Firin"
+    },
+    {
+      "id": 5,
+      "name": "Kozmetik"
+    }
+  ],
+  "Products": [
+    {
+      "id": 1,
+      "name": "Elma",
+      "categoryId": 0,
+      "price": 16.50,
+      "stock": 100,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/27133000/elma-granny-smith-kg-0e9183-1650x1650.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Şeftali Kg",
+      "categoryId": 0,
+      "price": 32,
+      "stock": 100,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/27310000/seftali-kg-6780b4-1650x1650.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Armut",
+      "categoryId": 0,
+      "price": 21.90,
+      "stock": 120,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/27025000/armut-deveci-kg-383178-1650x1650.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Karpuz",
+      "categoryId": 0,
+      "price": 4,
+      "stock": 500,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/27191000/karpuz-kg-ort-8-kg-9f33c7-1650x1650.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Ananas",
+      "categoryId": 0,
+      "price": 44,
+      "stock": 49,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/27502055/27502055-16abca-1650x1650.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Muz İthal Kg",
+      "categoryId": 0,
+      "price": 36,
+      "stock": 123,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/27271000/muz-ithal-kg-3a8f26-1650x1650.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Lipton Ice Tea",
+      "categoryId": 2,
+      "price": 10,
+      "stock": 1032,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/08059596/08059596-0be6a2-1650x1650.png"
+    },
+    {
+      "id": 8,
+      "name": "Coca-Cola Zero",
+      "categoryId": 2,
+      "price": 41.5,
+      "stock": 1023,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/08019112/08019112-843f91-1650x1650.png"
+    },
+    {
+      "id": 9,
+      "name": "Coca-Cola ",
+      "categoryId": 2,
+      "price": 12,
+      "stock": 1023,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/8010903/8010903-0a6547-1650x1650.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Redbull",
+      "categoryId": 2,
+      "price": 17,
+      "stock": 394,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/08110030/08110030-a4b666-1650x1650.png"
+    },
+    {
+      "id": 11,
+      "name": "Dimes",
+      "categoryId": 2,
+      "price": 12.5,
+      "stock": 1099,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/08054914/08054914-91598b-1650x1650.png"
+    },
+    {
+      "id": 12,
+      "name": "Starbucks Frappuccino",
+      "categoryId": 2,
+      "price": 28,
+      "stock": 292,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/08059617/08059617-5a4166-1650x1650.png"
+    },
+    {
+      "id": 13,
+      "name": "Nescafe Xpress ",
+      "categoryId": 2,
+      "price": 12,
+      "stock": 10,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/8059620/8059620-4b4482-1650x1650.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Sırma Doğal Maden Suyu",
+      "categoryId": 2,
+      "price": 12,
+      "stock": 10,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/08040900/08040900-ce837c-1650x1650.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Yudum Ayçiçek Yağı",
+      "categoryId": 1,
+      "price": 50,
+      "stock": 10,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/04110401/04110401-ab51e0-1650x1650.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Torku Pilavlık Bulgur ",
+      "categoryId": 1,
+      "price": 11,
+      "stock": 10,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/01075146/01075146-137bf3-1650x1650.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Başbaşı Bulgur",
+      "categoryId": 1,
+      "price": 19,
+      "stock": 1210,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/01075063/01075063-b4252f-1650x1650.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Kuru Fasulye",
+      "categoryId": 1,
+      "price": 21,
+      "stock": 1320,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/01020001/01020001-925b28-1650x1650.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Ton Balığı",
+      "categoryId": 1,
+      "price": 27,
+      "stock": 1120,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/09051116/09051116-bb9beb-1650x1650.JPG"
+    },
+    {
+      "id": 20,
+      "name": "Tat Doğranmış Domates ",
+      "categoryId": 1,
+      "price": 11,
+      "stock": 10,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/09012510/09012510-5c2926-1650x1650.jpg"
+    },
+    {
+      "id": 21,
+      "name": " Un 2 Kg",
+      "categoryId": 1,
+      "price": 21,
+      "stock": 1021,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/05011206/migros-un-2-kg-482017-1650x1650.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Filiz Fiyonk Makarna",
+      "categoryId": 1,
+      "price": 8,
+      "stock": 10,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/05030354/05030354-8ec20e-1650x1650.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Barilla ",
+      "categoryId": 2,
+      "price": 12,
+      "stock": 10,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/05030340/05030340-676764-1650x1650.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Heinz Ketçap",
+      "categoryId": 1,
+      "price": 12,
+      "stock": 1980,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/16290722/16290722-284081-1650x1650.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Domestos Sıfır Klor ",
+      "categoryId": 3,
+      "price": 22,
+      "stock": 1980,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/30569742/30569742-fd539d-1650x1650.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Domestos",
+      "categoryId": 3,
+      "price": 14,
+      "stock": 1980,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/30560515/30560515-d50adf-1650x1650.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Perwoll",
+      "categoryId": 3,
+      "price": 44,
+      "stock": 1980,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/30551827/30551827-3ab43f-1650x1650.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Ariel",
+      "categoryId": 3,
+      "price": 42,
+      "stock": 1980,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/30022505/30022505-e6d393-1650x1650.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Yumoş",
+      "categoryId": 3,
+      "price": 38,
+      "stock": 1980,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/30589511/30589511-0db292-1650x1650.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Sofra Ekmek",
+      "categoryId": 4,
+      "price": 4,
+      "stock": 1980,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/05120000/05120000-a957e2-1650x1650.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Tost Ekmeği ",
+      "categoryId": 4,
+      "price": 19,
+      "stock": 1980,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/46051410/46051410-4b51f4-1650x1650.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Sandviç Ekmeği",
+      "categoryId": 4,
+      "price": 15,
+      "stock": 1980,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/05053847/05053847-f247da-1650x1650.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Baget Ekmek",
+      "categoryId": 4,
+      "price": 13,
+      "stock": 1980,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/05120015/05120015-3d0314-1650x1650.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Şampuan ",
+      "categoryId": 5,
+      "price": 26,
+      "stock": 1980,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/34255715/34255715-f990e2-1650x1650.png"
+    },
+    {
+      "id": 35,
+      "name": "Maskara ",
+      "categoryId": 5,
+      "price": 60,
+      "stock": 1980,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/35400093/35400093-63f87b-1650x1650.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Dis Macunu",
+      "categoryId": 5,
+      "price": 14,
+      "stock": 1980,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/34010272/colgate-curuklere-karsi-koruma-dis-macunu-100-ml-ad6ec6-1650x1650.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Köpük 200 Ml",
+      "categoryId": 5,
+      "price": 19,
+      "stock": 1980,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/34117341/34117341-e104a9-1650x1650.png"
+    },
+    {
+      "id": 38,
+      "name": "Gillette Fusion ",
+      "categoryId": 5,
+      "price": 480,
+      "stock": 1980,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/34161350/34161350-d3fbde-1650x1650.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Neutrogena ",
+      "categoryId": 5,
+      "price": 62,
+      "stock": 1980,
+      "img": "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/35419758/neutrogena-hydro-boost-water-gel-jel-temizleyici-200-ml-a3d092-1650x1650.jpg"
     }
   ]
 }
